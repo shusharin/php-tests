@@ -15,6 +15,12 @@
  * @todo error report
  * @date 14.05.2014
  * @author Valery Shusharin <shusharin_valery@mail.ru>
+ * 
+ * test with count($data) = 7000
+ * Job time: 0.054523944854736 sec.
+ * Memory start: 0.5 Mb
+ * Memory end  : 2.75Mb
+ *
  * @example 
  * $data = array('abc', 'bac', 'bbaa', 'abab', 'absc', 'cab', 'bb',);
  * print_r(similar_by_count_symbols($data));
